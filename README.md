@@ -33,7 +33,8 @@ To run the test cases, simply run `npm start` or `npm test` in the project's rep
 - `makeChat(sessionToken: String, name: String): (chat: Chat)`
   - requires:
     - sessionToken is valid
-  - effects: returns a new chat with the provided name and makes the owner the session user
+  - effects:
+    - returns a new chat with the provided name and makes the owner the session user
 - `sendMessage(sessionToken: String, chat: Chat, content: String)`
   - requires:
     - sessionToken is valid
@@ -60,7 +61,8 @@ To run the test cases, simply run `npm start` or `npm test` in the project's rep
     - sessionToken is valid
     - chat exists
     - chat owner is the session user
-  - effects: changes name of chat to newName
+  - effects:
+    - changes name of chat to newName
 
 ## AI-Augmented Concept
 
@@ -88,7 +90,8 @@ To run the test cases, simply run `npm start` or `npm test` in the project's rep
 - `makeChat(sessionToken: String, name: String): (chat: Chat)`
   - requires:
     - sessionToken is valid
-  - effects: returns a new chat with the provided name and makes the owner the session user
+  - effects:
+    - returns a new chat with the provided name and makes the owner the session user
 - `sendMessage(sessionToken: String, chat: Chat, content: String, llm: GeminiLLM)`
   - requires:
     - sessionToken is valid
