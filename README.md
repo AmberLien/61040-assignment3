@@ -120,8 +120,8 @@ To run the test cases, simply run `npm start` or `npm test` in the project's rep
 
 ## User-Interaction
 
-See [here](user_interaction.md) for updated user interactions. Note that the UI mostly stays the same as in the previous assignment, with updates occurring on the AskMedi page. A summarization tab is now provided with a button to summarize information.
+See [user_interaction.md](user_interaction.md) for updated user interactions. Note that the UI mostly stays the same as in the previous assignment, with updates occurring on the AskMedi page. A summarization tab is now provided with a button to summarize information.
 
 ## Test Cases and Validators
 
-See [here](notes.md) for discussions on the test cases created and validators created.
+See [notes.md](notes.md) for discussions on the test cases created and validators created.
