@@ -22,7 +22,8 @@
   "files": [
     "llmchat.ts",
     "gemini-llm.ts",
-    "llmchat-tests.ts"
+    "llmchat-tests.ts",
+    "validator.ts"
   ],
   "exclude": [
     "node_modules",
